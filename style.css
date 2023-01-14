@@ -103,7 +103,7 @@ strong::before {
 
 .header-des>p {
     width: 80%;
-
+    margin: auto;
     text-align: center;
     padding-bottom: 20px;
     line-height: 24px;
@@ -153,11 +153,14 @@ main {
 .features-des>p {
     text-align: justify;
     margin-bottom: 40px;
+    line-height: 24px;
 }
 
 /* features end  */
 .services {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 70px 0;
     gap: 40px;
 }
@@ -357,10 +360,10 @@ footer>div {
         line-height: 30px;
     }
     .header-des>p {
-         width:100%;
-        padding-bottom: 0;
+        width:100%;
+        padding: 20px 0;
         text-align: justify;
-        line-height: 20px;
+        line-height: 22px;
     }
 
 
